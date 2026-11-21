@@ -1,0 +1,216 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root {
+    --font-heading: 'Newsreader', Georgia, serif;
+    --font-body: 'Inter', Arial, sans-serif;
+    --space-black: #05060f;
+    --deep-indigo: #0d1033;
+    --violet: #7c5cff;
+    --electric-blue: #3b82f6;
+    --ice-blue: #7dc4ff;
+    --gold: #ffb84d;
+}
+.main{
+    background-image: url(../image/brain-background-glow.png);
+    width: 100%;
+    height:900px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.logo{
+    display:flex;
+    position:sticky;
+    width: 100%;
+    background-color:transparent;
+    padding: 15px 40px;
+    gap: 20px;
+}
+.logo img{
+    align-items: flex-start;
+    width: 210px;
+    height: max-content;
+}
+.logo a{
+    align-self: center;
+    text-decoration: none;
+    font-family: var(--font-body);
+    font-size: 18px;
+    font-weight: 700;
+    color:var(--gold);
+}
+.logo .b1{
+    cursor: pointer;
+    position:absolute;
+    top: 0;
+    right:180px;
+    width: 180px;
+    height: 80px;
+    background-color:rgb(29, 29, 29);
+    border: none;
+    border-right:1px solid rgb(83, 82, 82);
+    color: white;
+    font-family: var(--font-body);
+    font-size: 20px;
+
+}
+.logo .b2{
+    cursor: pointer;
+    position:absolute;
+    top: 0;
+    right:0px;
+    width: 180px;
+    height: 80px;
+    background-color:rgb(29, 29, 29);
+    border: none;
+    color: white;
+    font-family: var(--font-body);
+    font-size: 20px;
+}
+.logo button:hover{
+    background-color: rgb(68, 68, 68);
+}
+.content-b-1 h2{
+    margin:170px 350px;
+    font-family: var(--font-heading);
+    font-size:clamp(64px,130px,100px);
+    font-weight: 700;
+    color:whitesmoke;
+}
+.content-b-1 p{
+    position: absolute;
+    top: 400px;
+    margin: 0px 350px;
+    font-family: var(--font-body);
+    font-size:18px;
+    font-weight: 500;
+    color:white;
+    text-align: center;
+}
+.content-b-1 h5{
+    position:absolute;
+    right: 380px;
+    top: 650px;
+    font-family: var(--font-heading);
+    font-size: 30px;
+    color: white;
+}
+.content-b-1 .p{
+    position: absolute;
+    right: -280px;
+    top: 700px;
+    font-size: 18px;
+    text-align: start;
+    line-height: 30px;
+}
+.main-2{
+    position: relative;
+    top: 350px;
+    width: 100%;
+    height:1000vh;
+    background:
+    radial-gradient(circle at 30% 30%, rgba(124, 92, 255, 0.45), transparent 50%),
+    radial-gradient(circle at 75% 70%, rgba(255, 184, 77, 0.25), transparent 40%),
+    linear-gradient(135deg, #05060f, #0d1033, #1a1a5e);
+}
+.main-2 .display-1{
+    width: 100%;
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.main-2 .display-1 .left{
+    width: 650px;
+    height: 300px;
+}
+.main-2 .display-1 .left h3{
+    font-family: var(--font-heading);
+    font-size: 45px;
+    font-weight:500;
+    color: white;
+    line-height: 70px;
+}
+.main-2 .display-1 .left p{
+    font-family: var(--font-body);
+    font-size: 18px;
+    font-weight: 600;
+    color: white;
+    line-height:30px;
+}
+
+.main-2 .display-2{
+    width: 100%;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+.main-2 .display-2 .right{
+    width: 650px;
+    height: 300px;
+}
+.main-2 .display-2 .right h3{
+    font-family: var(--font-heading);
+    font-size: 50px;
+    font-weight:500;
+    color: white;
+    line-height: 60px;
+}
+.main-2 .display-2 .right p{
+    font-family: var(--font-body);
+    font-size: 18px;
+    font-weight: 600;
+    color: white;
+    line-height:30px;
+}
+
+
+.main-2 .display-3{
+    width: 100%;
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.main-2 .display-3 .left{
+    width: 650px;
+    height: 300px;
+}
+.main-2 .display-3 .left h3{
+    font-family: var(--font-heading);
+    font-size: 45px;
+    font-weight:500;
+    color: white;
+    line-height: 70px;
+}
+.main-2 .display-3 .left p{
+    font-family: var(--font-body);
+    font-size: 18px;
+    font-weight: 600;
+    color: white;
+    line-height:30px;
+}
+.content-b-2{
+    width: 100%;
+    height: 900px;
+    border: 1px solid black;
+    background-color: rgba(192, 191, 191, 0.911);
+}
+.content-b-2 h1{
+    width: 700px;
+    font-family: var(--font-heading);
+    font-size: 70px;
+    font-weight:500;
+    margin: 100px 70px;
+}
+.content-b-2 .row{
+    display: flex;
+    justify-content: space-between;
+}
