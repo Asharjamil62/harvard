@@ -4,8 +4,8 @@
     box-sizing: border-box;
 }
 :root {
-    --font-heading: 'Newsreader', Georgia, serif;
-    --font-body: 'Inter', Arial, sans-serif;
+    --font-heading: 'Lexend', Arial, sans-serif;
+    --font-body: 'Nunito', Arial, sans-serif;
     --space-black: #05060f;
     --deep-indigo: #0d1033;
     --violet: #7c5cff;
